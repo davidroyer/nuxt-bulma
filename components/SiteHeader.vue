@@ -1,5 +1,6 @@
 <template lang="html">
   <header class="header">
+    <h1>Nuxt Bulma Example</h1>
     <div
       id="navMenuButton"
       ref="navMenuButton"
