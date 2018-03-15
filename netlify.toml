@@ -1,0 +1,8 @@
+[build]
+  command = "yarn generate"
+  publish = "dist"
+
+[context.production]
+  environment = {
+    NODE_ENV = "8.7.0"
+  }
