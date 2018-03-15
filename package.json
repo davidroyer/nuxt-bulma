@@ -8,11 +8,15 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "nf:update1": "netlify update -n nuxt-buma100",
+    "nf:update2": "netlify update -p my-password",
+    "nf:deploy": "netlify deploy"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
     "@nuxtjs/bulma": "^1.0.3",
+    "@nuxtjs/pwa": "^2.0.8",
     "node-sass": "^4.7.2",
     "nuxt": "^1.0.0",
     "sass-loader": "^6.0.7"
