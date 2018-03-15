@@ -1,6 +1,9 @@
+[Settings]
+  ID = "cec7b5b3-e10c-4834-8677-ea1ff52aec2b"
+
 [build]
-  command = "yarn generate"
+  command = "npm run build && npm run generate"
   publish = "dist"
 
 [context.production]
-  environment = { NODE_ENV = "8.7.0" }
+  environment = { NODE_ENV = "8.7.0", REPOSITORY_URL = "https://github.com/davidroyer/nuxt-bulma" }
